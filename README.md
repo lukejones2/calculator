@@ -12,8 +12,8 @@ By Luke.
 In order to run the streamlit app, you need to run the command: 
 
 ```
-   import pip 
-   pip.main(['install', 'streamlit', 'pandas', 'numpy'])
+import pip 
+pip.main(['install', 'streamlit', 'pandas', 'numpy'])
 ```
 
 `streamlit run StreamlitApp.py` 
