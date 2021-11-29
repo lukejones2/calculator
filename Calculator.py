@@ -3,10 +3,12 @@
 
 import math #This is so i can access all the trigonometric functions 
 
-def degrees_to_radians(x): #This is to convert the users imput of degrees to radians so that the answer can be calculated
+def degrees_to_radians(x): 
+    """This is to convert the users imput of degrees to radians so that the answer can be calculated."""
     return x*math.pi/180 
 
-def radians_to_degrees(a): #This is to convert the calculated answer from radians to degrees so they get the answer in the units they are looking for 
+def radians_to_degrees(a): 
+    """This is to convert the calculated answer from radians to degrees so they get the answer in the units they are looking for.""" 
     return (a/math.pi)*180
 
 symbol = input("What sum would you like to do?") #Primary question
@@ -169,10 +171,10 @@ elif symbol == "FRA":
     answer=str(input("What fractional calculation would you like to do?"))
 
     if answer == "FRACTION_PERCENTAGE":
-        n=0
-        d=0
-        f=0.0
-        x=0
+        n = 0
+        d = 0
+        f = 0.0
+        x = 0
         
         n = int(input("What is the numerator of the fraction?"))
         d = int(input("What is the denominator of the fraction?"))
@@ -181,10 +183,10 @@ elif symbol == "FRA":
         print(x,"%")
 
     elif answer == "FRACTION_DECIMAL":
-        n=0
-        d=0
-        f=0.0
-        x=0.0
+        n = 0
+        d = 0
+        f = 0.0
+        x = 0.0
         
         n = int(input("What is the numerator of the fraction?"))
         d = int(input("What is the denominator of the fraction?"))
@@ -201,7 +203,7 @@ elif symbol == "FRA":
                 
 
 elif symbol == "INDICES":
-    numberTotal=1
+    numberTotal = 1
     number = float(input("What is the number?"))
     x = int(input("To the power of what?"))
     for counter in range(x):
@@ -234,13 +236,3 @@ elif symbol == "STL":
         b = a+y1
         print("y =",z,"x +",b)
         
-    
-    
-    
-
-
-        
-    
-    
-
-
