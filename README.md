@@ -1,7 +1,7 @@
 # calculator
 Calculator repository
 
-This repo is a calculator implemented in Python. 
+This repo is a calculator implemented in Python for a school project.
 
 By Luke.
 
